@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (width < 500px) {
+    div {
+        display: none;
+    }
+}
